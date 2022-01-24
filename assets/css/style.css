@@ -1,27 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Outfit:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish:wght@300&display=swap');
 
 #logo {
     height: 300px;
     width: 100%;
     float: left;
     background: url(imamges/fg.1.png) no-repeat center center;
+    overflow: hidden;
 }
 
 #menu {
-    font-family: Open-Sans, sans-serif;
+    font-family: Montserrat, sans-serif;
     list-style: underline;
     margin: 0;
-    width: 200px;
+    width: 250px;
 }
 
 #menu li {
     display: block;
-    color: #000;
+    color: #333;
     padding: 40px 16px;
-    font-size: 120%;
+    font-size: 150%;
     margin-left: 5%;
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-weight: 500%;
 }
 
 a:link {
@@ -34,11 +37,43 @@ a:visited {
     color: #000;
 }
 
-p {
+#home-about {
     position: relative;
-    left: 40%;
-    top: -290px;
+    left: 30%;
+    top: -320px;
     font-size: 150%;
     overflow: hidden;
     width: 60%;
+    font-family: Mulish,sans-serif;
+}
+#contact-us {
+    position: relative;
+    left: 40%;
+    top: -320px;
+    font-size: 120%;
+    font-family: Mulish, sans-serif;
+    color: #333;
+    overflow: hidden;
+}
+#our-services {
+    position: relative;
+    left: 30%;
+    top: -300px;
+    font-size: 120%;
+    font-family: Mulish, sans-serif;
+    color: #333;
+    overflow: hidden;
+    width: 60%;
+    font-weight: 450%;
+}
+footer {
+    background-color: #808080;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 5%;
+    position: fixed;
+    font-family: Mulish, sans-serif;
+    font-size: 150%;
+    text-align: center;
 }
