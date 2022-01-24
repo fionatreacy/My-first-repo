@@ -1,22 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Outfit:wght@400&display=swap');
 
+#logo {
+    height: 300px;
+    width: 100%;
+    float: left;
+    background: url(imamges/fg.1.png) no-repeat center center;
+}
+
 #menu {
     font-family: Open-Sans, sans-serif;
     list-style: underline;
     margin: 0;
     width: 200px;
-    padding-top: 15%;
-}
-
-#logo {
-    font-family: Outfit, sans-serif;
-    color: #000000;
-    float: left;
-    padding-top: 5%;
-    text-transform: uppercase;
-    font-size: 200%;
-   margin-left: 2%;
-   width: 33%;
 }
 
 #menu li {
@@ -28,18 +23,22 @@
     text-transform: uppercase;
     text-decoration: underline;
 }
+
 a:link {
     color: #000;
     background-color: transparent;
     text-decoration: none;
-  }
-  a:visited {
-      color: #000;
-  }
+}
 
-  p {
-      position: absolute;
-      left: 50%;
-      top: 5%;
-      font-size: 50%
-  }
+a:visited {
+    color: #000;
+}
+
+p {
+    position: relative;
+    left: 40%;
+    top: -290px;
+    font-size: 150%;
+    overflow: hidden;
+    width: 60%;
+}
