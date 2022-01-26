@@ -13,6 +13,7 @@
     list-style: underline;
     margin: 0;
     width: 250px;
+    color: #333;
 }
 
 #menu li {
@@ -28,13 +29,13 @@
 }
 
 a:link {
-    color: #000;
+    color: #333;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: #000;
+    color: #333;
 }
 
 #home-about {
@@ -44,27 +45,88 @@ a:visited {
     font-size: 150%;
     overflow: hidden;
     width: 60%;
-    font-family: Mulish,sans-serif;
-}
-#contact-us {
-    position: relative;
-    left: 40%;
-    top: -320px;
-    font-size: 120%;
     font-family: Mulish, sans-serif;
     color: #333;
-    overflow: hidden;
 }
-#our-services {
+
+.contact-us>h2 {
+    position: relative;
+    top: -30px;
+    padding-bottom: 20px;
+    font-family: Montserrat, sans-serif;
+    color: #333;
+}
+
+.contact-us {
+    position: absolute;
+    left: 25%;
+    top: 47%;
+    font-family: Montserrat, sans-serif;
+    font-size: 130%;
+    vertical-align: middle;
+    width: 70%;
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+#submit-button {
+    padding: 15px 32px 15px 32px;
+    font-family: Mulish, sans-serif;
+    font-size: 90%;
+    color: white;
+    margin-bottom: 10%;
+    background-color: red;
+    border-style: hidden;
+    border-color: #808080;
+    text-transform: uppercase;
+}
+
+#submit-button:hover {
+    background-color: white;
+    border: #333 solid 1px;
+    color: #333;
+}
+
+.our-services {
     position: relative;
     left: 30%;
-    top: -300px;
-    font-size: 120%;
-    font-family: Mulish, sans-serif;
+    top: -290px;
     color: #333;
-    overflow: hidden;
-    width: 60%;
-    font-weight: 450%;
+    font-family: Mulish, sans-serif;
+    font-size: 100%;
+}
+.our-services>h2 {
+    font-size: 150%;
+    font-family: Montserrat, sans-serif;
+    color: #333;
+    font-weight: bold;
+}
+#auditing {
+    position: relative;
+    left: 23.3%;
+    background-color: #808080;
+    display: block;
+    height: 60%;
+    width: 20%;
+    top: -16px;
+}
+#installation {
+    position: relative;
+    left: 46.6%;
+    background-color: #808080;
+    display: block;
+    height: 60%;
+    width: 20%;
+    top: -167px;
+}
+#training {
+    position: relative;
+    background-color: rgb(50, 50, 50, 0.3);
+    display: block;
+    height: 60%;
+    width: 20%;
+    top: -315px;
 }
 footer {
     background-color: #808080;
