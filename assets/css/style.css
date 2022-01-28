@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Mulish:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Mulish:wght@400&display=swap');
 
 #logo {
     height: 200px;
@@ -9,23 +9,25 @@
 }
 
 #menu {
-    font-family: Montserrat, sans-serif;
+    font-family: Mulish, sans-serif;
     margin: 0;
     width: 250px;
     color: #1d1d1d;
-    font-weight: 600%;
+    font-weight: 400%;
 }
 
 #menu li {
     display: block;
     color: #1d1d1d;
-    padding: 40px 16px;
+    padding: 15px 16px;
     font-size: 150%;
-    margin-left: 5%;
+    margin-left: -20px;
+    margin-top: 15%;
     text-transform: uppercase;
     text-decoration: none;
-    font-family: Montserrat;
-    font-weight: 600%;
+    font-family: Mulish;
+    font-weight: 400%;
+    letter-spacing: 2px;
 }
 
 a:link {
@@ -39,45 +41,61 @@ a:visited {
 }
 
 #home-about {
+    font-family: Mulish, sans-serif;
+    font-weight: 100;
     position: relative;
     left: 30%;
-    top: -320px;
+    top: -270px;
     font-size: 150%;
     overflow: hidden;
     width: 60%;
-    font-family: Mulish, sans-serif;
     color: #1d1d1d;
+    letter-spacing: 2px;
+    background-color: rgb(126, 122, 122, 0.6);
 }
 
-.contact-us>h2 {
+#contact-header {
     position: relative;
-    top: -30px;
+    top: -260px;
+    left: 25%;
     padding-bottom: 20px;
-    font-family: Montserrat, sans-serif;
+    font-family: Mulish, sans-serif;
     color: #1d1d1d;
+    font-size: 180%;
+    font-weight: 125%;
+    letter-spacing: 2px;
 }
 
 .contact-us {
     position: absolute;
-    left: 25%;
-    top: 33%;
-    font-family: Montserrat, sans-serif;
-    font-size: 130%;
+    left: 30%;
+    top: 53%;
+    font-family: Mulish, sans-serif;
+    font-size: 150%;
+    font-weight: 125%;
     vertical-align: middle;
-    width: 70%;
+    width: 60%;
+    height: 60%;
     color: #1d1d1d;
+    letter-spacing: 2px;
+    background-color: rgba(126, 122, 122, 0.6);
 }
 
 #submit-button {
+    position: relative;
+    bottom: 20px;
+    left: 10px;
     padding: 15px 32px 15px 32px;
     font-family: Mulish, sans-serif;
     font-size: 90%;
     color: white;
     margin-bottom: 10%;
+    margin-left: 5%;
     background-color: red;
     border-style: hidden;
     border-color: #1d1d1d;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 #submit-button:hover {
@@ -93,14 +111,16 @@ a:visited {
     font-family: Mulish, sans-serif;
     font-size: 100%;
     left: 30%;
+    letter-spacing: 2px;
 }
 
 .our-services>h2 {
-    font-size: 150%;
-    font-family: Montserrat, sans-serif;
+    font-size: 125%;
+    font-family: Mulish, sans-serif;
     color: #1d1d1d;
     font-weight: bold;
     background-color: rgb(126, 122, 122, 0.6);
+    letter-spacing: 2px;
 }
 
 #auditing {
@@ -108,31 +128,42 @@ a:visited {
     left: 23.3%;
     color: #1d1d1d;
     display: block;
-    width: 20%;
-    height: 300px;
+    width: 22%;
+    height: 350px;
     background-color: rgba(126, 122, 122, 0.6);
-    top: -2px;
+    font-family: Mulish, sans-serif;
+    font-size: 115%;
+    font-weight: 100%;
+    letter-spacing: 2px;
 }
 
 #installation {
     position: absolute;
     left: 46.6%;
+    top: 0;
     color: #1d1d1d;
     display: block;
-    width: 20%;
-    height: 300px;
-    top: -1px;
+    width: 22%;
+    height: 350px;
     background-color: rgb(126, 122, 122, 0.6);
+    font-family: Mulish, sans-serif;
+    font-size: 115%;
+    font-weight: 100%;
+    letter-spacing: 2px;
 }
 
 #design {
     position: absolute;
-    top: -1px;
     display: block;
     color: #1d1d1d;
-    height: 300px;
-    width: 20%;
+    top: 0;
+    height: 350px;
+    width: 22%;
     background-color: rgb(126, 122, 122, 0.6);
+    font-family: Mulish, sans-serif;
+    font-size: 115%;
+    font-weight: 100%;
+    letter-spacing: 2px;
 }
 
 #audit-header {
@@ -143,6 +174,10 @@ a:visited {
 #audit-header,
 #install-header {
     text-align: center;
+    font-weight: 100%;
+    font-family: Mulish, sans-serif;
+    font-size: 125%;
+    letter-spacing: 2px;
 }
 
 footer {
@@ -156,7 +191,8 @@ footer {
     font-size: 150%;
     text-align: center;
     color: #1d1d1d;
-    font-weight: 500;
+    font-weight: 200;
+    letter-spacing: 2px;
 }
 
 html,
@@ -164,6 +200,33 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     height: 100%;
-    background: url(imamges/good-fire-alarm-photo.jpeg) no-repeat center center fixed;
+    background: url(imamges/smokey-fire-alarm.jpeg) no-repeat center center fixed;
     background-size: cover;
+}
+
+@media  screen and (max-width:1200px) {
+    
+    #contact-header {
+        width: 70%;
+        margin-bottom: auto;
+        padding-bottom: 0%;
+    }
+    .contact-us {
+        top: 60%;
+        height: 75%;
+    }
+    #submit-button {
+        position: relative;
+        top: 20px;
+    }
+}
+@media screen and (max-width: 950px) {
+    #auditing, #installation, #design {
+        height: 500px;
+    }
+    .contact-us {
+        position: relative;
+        top: -260px;
+        width: 65%;
+    }
 }
