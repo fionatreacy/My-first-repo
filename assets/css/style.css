@@ -13,7 +13,9 @@
     margin: 0;
     width: 250px;
     color: #1d1d1d;
-    font-weight: 400%;
+    font-weight: 400;
+    position: relative;
+    top: 70px;
 }
 
 #menu li {
@@ -26,7 +28,7 @@
     text-transform: uppercase;
     text-decoration: none;
     font-family: Mulish;
-    font-weight: 400%;
+    font-weight: 200;
     letter-spacing: 2px;
 }
 
@@ -45,40 +47,45 @@ a:visited {
     font-weight: 100;
     position: relative;
     left: 30%;
-    top: -270px;
+    bottom: 250px;
     font-size: 150%;
     overflow: hidden;
     width: 60%;
     color: #1d1d1d;
     letter-spacing: 2px;
-    background-color: rgb(126, 122, 122, 0.6);
+    background-color: rgb(126, 122, 122, 0.4);
+}
+h2 {
+    font-family: Mulish, sans-serif;
+    font-size: 150%;
+    font-weight: 100;
 }
 
 #contact-header {
     position: relative;
-    top: -260px;
+    top: -300px;
     left: 25%;
     padding-bottom: 20px;
     font-family: Mulish, sans-serif;
     color: #1d1d1d;
     font-size: 180%;
-    font-weight: 125%;
+    font-weight: 125;
     letter-spacing: 2px;
 }
 
 .contact-us {
     position: absolute;
     left: 30%;
-    top: 53%;
+    top: 40%;
     font-family: Mulish, sans-serif;
     font-size: 150%;
-    font-weight: 125%;
+    font-weight: 125;
     vertical-align: middle;
     width: 60%;
     height: 60%;
     color: #1d1d1d;
     letter-spacing: 2px;
-    background-color: rgba(126, 122, 122, 0.6);
+    background-color: rgba(126, 122, 122, 0.4);
 }
 
 #submit-button {
@@ -118,8 +125,8 @@ a:visited {
     font-size: 125%;
     font-family: Mulish, sans-serif;
     color: #1d1d1d;
-    font-weight: bold;
-    background-color: rgb(126, 122, 122, 0.6);
+    font-weight: 100;
+    background-color: rgb(126, 122, 122, 0.4);
     letter-spacing: 2px;
 }
 
@@ -130,10 +137,10 @@ a:visited {
     display: block;
     width: 22%;
     height: 350px;
-    background-color: rgba(126, 122, 122, 0.6);
+    background-color: rgba(126, 122, 122, 0.4);
     font-family: Mulish, sans-serif;
     font-size: 115%;
-    font-weight: 100%;
+    font-weight: 100;
     letter-spacing: 2px;
 }
 
@@ -145,10 +152,10 @@ a:visited {
     display: block;
     width: 22%;
     height: 350px;
-    background-color: rgb(126, 122, 122, 0.6);
+    background-color: rgb(126, 122, 122, 0.4);
     font-family: Mulish, sans-serif;
     font-size: 115%;
-    font-weight: 100%;
+    font-weight: 100;
     letter-spacing: 2px;
 }
 
@@ -159,10 +166,10 @@ a:visited {
     top: 0;
     height: 350px;
     width: 22%;
-    background-color: rgb(126, 122, 122, 0.6);
+    background-color: rgb(126, 122, 122, 0.4);
     font-family: Mulish, sans-serif;
     font-size: 115%;
-    font-weight: 100%;
+    font-weight: 100;
     letter-spacing: 2px;
 }
 
@@ -174,14 +181,14 @@ a:visited {
 #audit-header,
 #install-header {
     text-align: center;
-    font-weight: 100%;
+    font-weight: 150;
     font-family: Mulish, sans-serif;
     font-size: 125%;
     letter-spacing: 2px;
 }
 
 footer {
-    background-color: rgb(126, 122, 122, 0.6);
+    background-color: rgb(126, 122, 122, 0.4);
     width: 100%;
     left: 0;
     bottom: 0;
