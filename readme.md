@@ -59,3 +59,14 @@ I ran my website through lighthouse in devtools to ensure all my colours and fon
 
 
 ## Deployment
+I deployed my site on github pages by going to my repository settings and selecting github pages. I selected the main branch, and when I refreshed the page my link was ready.
+An active link can be found by clicking [HERE](https://fionatreacy.github.io/My-first-repo/)
+
+
+# Credits
+
+## Content
+I used the code from the Love Running walkthrough for my navigation links.
+
+## Media
+I got my background image from Adobe stock photos.
